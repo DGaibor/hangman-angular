@@ -1,0 +1,5 @@
+<div class="flex flex-col items-center justify-center h-screen bg-gray-900 text-white text-center p-6">
+  <app-game-start *ngIf="player.step === 'start'"></app-game-start>
+  <app-game-play *ngIf="player.step === 'game'"></app-game-play>
+  <app-game-result *ngIf="player.step === 'end'"></app-game-result>
+</div>

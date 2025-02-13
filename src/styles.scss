@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+@import "tailwindcss";
+.input-token{
+  .p-inputotp{
+    input{
+      color: white;
+      font-weight: bold;
+      background: black;
+      opacity: 1;
+    }
+  }
+}
